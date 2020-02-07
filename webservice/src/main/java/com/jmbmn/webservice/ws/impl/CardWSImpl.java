@@ -18,7 +18,7 @@ import com.jmbmn.webservice.services.checkoutws.ws.Cardws;
 		targetNamespace = "http://webservice.jmbmn.com/services/checkoutws/ws",
 		portName = "cardws",
 		endpointInterface = "com.jmbmn.webservice.services.checkoutws.ws.Cardws",
-		wsdlLocation = "file:/home/jhon/eclipse-workspace/webservice/src/main/resources/META-INF/wsdl/checkoutws.wsdl"
+		wsdlLocation = "file:/root/git/ws-soap-cxf-security-policy/webservice/src/main/resources/META-INF/wsdl/checkoutws.wsdl"
 		)
 @BindingType(SOAPBinding.SOAP11HTTP_BINDING)
 public class CardWSImpl implements Cardws {
